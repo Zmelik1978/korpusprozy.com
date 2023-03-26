@@ -1,2 +1,1 @@
 # korpusprozy.com
-# korpusprozy.com
