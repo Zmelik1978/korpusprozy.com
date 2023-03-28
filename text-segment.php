@@ -159,13 +159,12 @@ $(function () {
 });
 </script>
 
-<br>
-<h3 style="margin-left: 60px; color: blue; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 16px;">Boxplotové modely délek vět</h3>
 <!--MULTIPLE BOXPLOTS-->
-<div>
-	<img src="boxplots-multiple/boxplot1.png" style="height: 600px; width: 1110px; margin-left: 15px;">
-</div>
+<div style="margin-left: 60px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 16px;color: grey;">
+	<p>Pod tímto odkazem <a href="boxploty.html" target="_blank"><img src="ikony/box-plot.png" style="width: 20px; height: 20px;"></a> jsou k dipozici boxploty délek vět pro jednotlivá díla.
+</div>	
 
+<br>
 
 <h3 style="margin-left: 60px; color: blue; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 16x;">Kvantitativní distribuce textových segmentů</h3>
 <br>
