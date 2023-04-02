@@ -125,35 +125,82 @@ $(function () {
 	      series: [
 
 					{
-					name: 'Arbes: Ďábel na skřipci', showInLegend: false,
+					name: 'Týden v tichém domě', showInLegend: false,
 					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2 }, 
-					data: [[12.44, 0], [10.76, 1], [7.3, 2], [13.61, 4], [10.69, 7], [6.0, 8], [18.24, 11]] //vkládá se podle typu segmentu; číslo za čárkou značí typ segmentu: 0=průměrná délka věty v celém textu...
+					data: [[12.75, 0], [9.56, 1], [11.23, 2], [13.49, 6], [17.44, 11], [12.3, 12]] //vkládá se podle typu segmentu; číslo za čárkou značí typ segmentu: 0=průměrná délka věty v celém textu...
 					},
 
 					{
-					name: 'Arbes: Elegie o černých očích',showInLegend: false,
+					name: 'Pan Ryšánek a pan Schlegl',showInLegend: false,
 					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
-					data: [[15.18, 0], [9.45, 1], [18.76, 4], [20.14, 11]] 
+					data: [[14.15, 0], [10.0, 1], [14.5, 6]] 
 					},
 					{
-					name: 'Arbes: Svatý Xaverius',showInLegend: false,
+					name: 'Přivedla žebráka na mizinu',showInLegend: false,
 					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
-					data: [[18.68, 0], [14.22, 1], [19.14, 4], [24.28, 7], [7.78, 8], [15.85, 9], [15.85, 10], [15.67, 11]]
+					data: [[11.79, 0], [8.58, 1], [12.6, 6]]
 					},
 
 					{
-					name: 'Arbes: Sivooký démon',showInLegend: false,
+					name: 'O měkkém srdci paní Rusky',showInLegend: false,
 					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
-					data: [[15.06, 0], [9.43, 1], [4.2, 2], [23.93, 3], [16.99, 4], [16.89, 7], [9.4, 8], [20.79, 11]] 
+					data: [[13.09, 0], [10.69,1], [14.29, 6]] 
 					},
 
 					{
-					name: 'Arbes: Zázračná madona',showInLegend: false,
+					name: 'Večerní šplechty',showInLegend: false,
 					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
-					data: [[16.34, 0], [10.59, 1], [15.82, 3], [17.76, 4], [18.76, 7], [7.88, 8], [15.25, 11]] 
+					data: [[10.06, 0], [9.5, 1], [9.76, 6], [10.48, 7], [5.67, 8]] 
 					},
 
-				
+					{
+					name: 'Doktor Kazisvět',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[11.9, 0], [5.13, 1], [14.21, 6]] 
+					},
+
+					{
+					name: 'Hastrman',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[11.3, 0], [7.71, 1], [12.19, 6]] 
+					},
+
+					{
+					name: 'Jak si nakouřil pan Vorel pěnovku',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[11.39, 0], [6.4, 1], [12.06, 4]] 
+					},
+
+					{
+					name: 'U Tří lilií',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[11.39, 0], [6.4, 1], [12.06, 4]] 
+					},
+
+					{
+					name: 'Svatováclavská mše',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[15.99, 0], [2.71, 1], [15.89, 4]] 
+					},
+
+					{
+					name: 'Jak to přišlo...',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[11.4, 0], [6.23, 1], [12.65, 4]] 
+					},
+
+					{
+					name: 'Psáno o letošních dušičkách',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[12.29, 0], [9.93, 1], [13.29, 6], [13.32, 11]] 
+					},
+
+					{
+					name: 'Figurky',showInLegend: false,
+					marker: { 'symbol': 'circle', fillColor: "rgba(255,0,0,0)", lineColor: "#0000FF", lineWidth: 2  }, 
+					data: [[8.69, 0], [7.6, 1], [4.0, 2], [8.79, 4], [9.66, 11]] 
+					}
+
 				]
  		}); 
 });
@@ -183,11 +230,19 @@ $(function () {
     },
     xAxis: {
         categories: [
-            'Ďábel na skřipci',
-            'Elegie o černých očích',
-            'Svatý Xaverius',
-            'Sivooký démon',
-            'Zázračná madona',
+            'Týden v tichém domě',
+            'Pan Ryšánek a pan Schlegl',
+            'Přivedla žebráka na mizinu',
+            'O měkkém srdci paní Rusky',
+            'Večerní šplechty',
+			'Doktor Kazisvět',
+			'Hastrman',
+			'Jak si nakouřil pan Vorel pěnovku',
+			'U Tří lilií',
+			'Svatováclavská mše',
+			'Jak to přišlo...',
+			'Psáno o letošních dušičkách',
+			'Figurky'
         ],
         crosshair: true
     },
@@ -213,51 +268,51 @@ $(function () {
     },
     series: [{
         name: 'přímá řeč',
-        data: [291392.65, 252380.95, 196315.31, 185698.91, 108462.27] //pořadí určuje pořadí děl
+        data: [283462.03, 61310.1, 164658.63, 272286.23, 431575.74, 116902.83, 167237.44, 78807.95, 49306.63, 5077.5, 123509.2, 308653.26, 274124.72] //pořadí určuje pořadí děl
 
     }, {
         name: 'přímá řeč jako vnitřní monolog',
-        data: [7059.96, 0, 0, 627.77, 0]
+        data: [31991.17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 387.94]
 
     }, {
         name: 'personální vypravěč',
-        data: [0, 0, 0, 116584.96, 199544.74]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     }, {
         name: 'vypravěč postava',
-        data: [618665.38, 744444.44, 467359.88, 532165.49, 479159.62]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 947611.71, 989577.77, 859510.81, 0, 717486.18]
 
     }, {
         name: 'nadosobní vypravěč',
-        data: [0, 0, 0, 0, 0]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     }, {
         name: 'rétorický vypravěč',
-        data: [0, 0, 0, 0, 0]
+        data: [476098.55, 930945.47, 826416.78, 719223.77, 321243.52, 870445.34, 820776.26, 911920.53, 0, 0, 0, 647775.75, 0]
 
     }, {
         name: 'vložené vyprávění 1. stupně',
-        data: [43423.6, 0, 293351.17, 151949.06, 139622.87]
+        data: [0, 0, 0, 0, 207558.67, 0, 0, 0, 0, 0, 0, 0, 0]
 
     }, {
         name: 'přímá řeč ve vloženém vyprávění 1. stupně',
-        data: [1035.67, 0, 3149.67, 14887.0, 1937.92]
+        data: [0, 0, 0, 0, 10362.69, 0, 0, 0, 0, 0, 0, 0, 0]
 
     }, {
         name: 'vložené vyprávění 2. stupně',
-        data: [0, 0, 27354.71, 0, 0]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     }, {
         name: 'přímá řeč ve vloženém vyprávění 2. stupně',
-        data: [0, 0, 14583.42, 0, 0]
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     }, {
         name: 'vložený text',
-        data: [2876.87, 74603.17, 6083.62, 8699.03, 18764.03]
+        data: [188407.8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 150213.28, 13577.73]
 
     }, {
         name: 'přímá řeč ve vloženém textu',
-        data: [0, 0, 0, 0, 0]
+        data: [18661.52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     }]
 });
@@ -270,11 +325,19 @@ $(function () {
 <form name="form" action="text-segment.php" method="post">
     <select name="select" style="margin-left: 60px; margin-top: 30px;">
         <option>-- vybrat --</option>
-        <option value="dabel">Ďábel na skřipci</option>
-        <option value="elegie">Elegie o černých očích</option>
-        <option value="xaverius">Svatý Xaverius</option>
-        <option value="demon">Sivooký démon</option>
-        <option value="madona">Zázračná madona</option>
+        <option value="tydenvtichemdome">Týden v tichém domě</option>
+        <option value="panrysanekapanschlegl">Pan Ryšánek a pan Schlegl</option>
+        <option value="privedlazebrakanamizinu">Přivedla žebráka na mizinu</option>
+        <option value="omekkemsrdcipanirusky">O měkkém srdci paní Rusky</option>
+        <option value="vecernisplechty">Večerní šplechty</option>
+		<option value="doktorkazisvet">Doktor Kazisvět</option>
+		<option value="hastrman">Hastrman</option>
+		<option value="jaksinakourilpanvorelpenovku">VJak si nakouřil pan Vorel pěnovku</option>
+		<option value="utrililii">U Tří lilií</option>
+		<option value="svatovaclavskamse">Svatováclavská mše</option>
+		<option value="jaktoprislo">Jak to přišlo...</option>
+		<option value="psanooletosnichdusickach">Psáno o letošních dušičkách</option>
+		<option value="figurky">Figurky</option>
     </select>
     <input type="submit" name="submit">
 </form>
@@ -284,110 +347,47 @@ if(isset($_POST["submit"])){
 	if(!empty($_POST["select"])){
 		$select = $_POST["select"];
 		switch ($select){
-			case "dabel":
-				echo "<a href='textsegments-graphs/Dabel na skripci bar.svg' target='_blank'><img src='textsegments-graphs/Dabel na skripci bar.png' style='width: 1200px; height: 500px; margin-left: -30px;'></a><br>";
+			case "tydenvtichemdome":
+				echo "<a href='textsegments-graphs/tydenvtichemdome.png' target='_blank'><img src='textsegments-graphs/tydenvtichemdome.png' style='width: 1200px; height: 500px; margin-left: -30px;'></a><br>";
 				echo "
 				<table style='float: left; margin-left: 120px; margin-top: 20px; font-family: Courier;'>
 				<tr><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Textový segment</td><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Rf</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč</td><td style='border: 1px solid black; padding: 2px;'>291392.65</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč jako vnitřní monolog</td><td style='border: 1px solid black; padding: 2px;'>7059.96</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč</td><td style='border: 1px solid black; padding: 2px;'>283462.03</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč jako vnitřní monolog</td><td style='border: 1px solid black; padding: 2px;'>31991.176</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>personální vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč postava</td><td style='border: 1px solid black; padding: 2px;'>618665.38</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč postava</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč nadosobní</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>rétorický vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>43423.60</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>5222.44</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložený text</td><td style='border: 1px solid black; padding: 2px;'>44100.58</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém textu</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 0px solid black; padding: 2px; color: red; font-weight: bold;'>podrobná tabulka <a href='textsegments-txt/dabelnaskripci.txt' target='_blank'><img src='ikony/txt.png' style='width: 20px; height: 20px;'></a></td></tr>
-				</table>";
-				echo "<br><a href='textsegments-graphs/Dabel na skripci pie.svg' target='_blank'><img src='textsegments-graphs/Dabel na skripci pie.png' style='width: 600px; height: 300px;'></a><br><br>";
-				break;
-			case "elegie":
-				echo "<a href='textsegments-graphs/Elegie o cernych ocich bar.svg' target='_blank'><img src='textsegments-graphs/Elegie o cernych ocich bar.png' style='width: 1200px; height: 500px; margin-left: -30px;'></a>";
-				echo "
-				<table style='float: left; margin-left: 120px; margin-top: 20px; font-family: Courier;'>
-				<tr><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Textový segment</td><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Rf</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč</td><td style='border: 1px solid black; padding: 2px;'>252380.95</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč jako vnitřní monolog</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>personální vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč postava</td><td style='border: 1px solid black; padding: 2px;'>744444.44</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč nadosobní</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>rétorický vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>rétorický vypravěč</td><td style='border: 1px solid black; padding: 2px;'>476098.55</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložený text</td><td style='border: 1px solid black; padding: 2px;'>74603.17</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém textu</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 0px solid black; padding: 2px; color: red; font-weight: bold;'>podrobná tabulka <a href='textsegments-txt/elegieocernychocich.txt' target='_blank'><img src='ikony/txt.png' style='width: 20px; height: 20px;'></a></td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>vložený text</td><td style='border: 1px solid black; padding: 2px;'>188407.8</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém textu</td><td style='border: 1px solid black; padding: 2px;'>18661.52</td></tr>
+				<tr><td style='border: 0px solid black; padding: 2px; color: red; font-weight: bold;'>podrobná tabulka <a href='textsegments-txt/tydenvtichemdome.txt' target='_blank'><img src='ikony/txt.png' style='width: 20px; height: 20px;'></a></td></tr>
 				</table>";
-				echo "<br><a href='textsegments-graphs/Elegie o cernych ocich pie.svg' target='_blank'><img src='textsegments-graphs/Elegie o cernych ocich pie.png' style='width: 600px; height: 300px'></a><br><br>";
+				echo "<br><a href='SlovniDruhy/tydenvtichemdome.svg' target='_blank'><img src='SlovniDruhy/tydenvtichemdome.svg' style='width: 600px; height: 300px;'></a><br><br>";
 				break;
-			case "xaverius":
-				echo "<a href='textsegments-graphs/Svaty Xaverius bar.svg' target='_blank'><img src='textsegments-graphs/Svaty Xaverius bar.png' style='width: 1200px; height: 500px; margin-left: -30px;'></a>";
+			case "panrysanekapanschlegl":
+				echo "<a href='textsegments-graphs/panrysanekapanschlegl.png' target='_blank'><img src='textsegments-graphs/panrysanekapanschlegl.png' style='width: 1200px; height: 500px; margin-left: -30px;'></a>";
 				echo "
 				<table style='float: left; margin-left: 120px; margin-top: 20px; font-family: Courier;'>
 				<tr><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Textový segment</td><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Rf</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč</td><td style='border: 1px solid black; padding: 2px;'>196315.31</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč</td><td style='border: 1px solid black; padding: 2px;'>2186.42</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč jako vnitřní monolog</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>personální vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč postava</td><td style='border: 1px solid black; padding: 2px;'>467359.88</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč postava</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč nadosobní</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>rétorický vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>293351.17</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>3020.24</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>27354.71</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>14583.42</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložený text</td><td style='border: 1px solid black; padding: 2px;'>6083.62</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém textu</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 0px solid black; padding: 2px; color: red; font-weight: bold;'>podrobná tabulka <a href='textsegments-txt/svatyxaverius.txt' target='_blank'><img src='ikony/txt.png' style='width: 20px; height: 20px;'></a></td></tr>
-				</table>";
-				echo "<br><a href='textsegments-graphs/Svaty Xaverius pie.svg' target='_blank'><img src='textsegments-graphs/Svaty Xaverius pie.png' style='width: 600px; height: 300px'></a><br><br>";
-				break;
-			case "demon":
-				echo "<a href='textsegments-graphs/Sivooky demon bar.svg' target='_blank'><img src='textsegments-graphs/Sivooky demon bar.png' style='width: 1200px; height: 500px; margin-left: -30px;'></a>";
-				echo "
-				<table style='float: left; margin-left: 120px; margin-top: 20px; font-family: Courier;'>
-				<tr><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Textový segment</td><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Rf</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč</td><td style='border: 1px solid black; padding: 2px;'>185698.91</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč jako vnitřní monolog</td><td style='border: 1px solid black; padding: 2px;'>627.77</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>personální vypravěč</td><td style='border: 1px solid black; padding: 2px;'>116584.96</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč postava</td><td style='border: 1px solid black; padding: 2px;'>532165.49</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč nadosobní</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>rétorický vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>151949.06</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>14887</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>rétorický vypravěč</td><td style='border: 1px solid black; padding: 2px;'>930945.47</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložený text</td><td style='border: 1px solid black; padding: 2px;'>8699.03</td></tr>
+				<tr><td style='border: 1px solid black; padding: 2px;'>vložený text</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
 				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém textu</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 0px solid black; padding: 2px; color: red; font-weight: bold;'>podrobná tabulka <a href='textsegments-txt/sivookydemon.txt' target='_blank'><img src='ikony/txt.png' style='width: 20px; height: 20px;'></a></td></tr>
+				<tr><td style='border: 0px solid black; padding: 2px; color: red; font-weight: bold;'>podrobná tabulka <a href='textsegments-txt/panrysanekapanschlegl.txt' target='_blank'><img src='ikony/txt.png' style='width: 20px; height: 20px;'></a></td></tr>
 				</table>";
-				echo "<br><a href='textsegments-graphs/Sivooky demon pie.svg' target='_blank'><img src='textsegments-graphs/Sivooky demon pie.png' style='width: 600px; height: 300px'></a><br><br>";
-				break;
-			case "madona":
-				echo "<a href='textsegments-graphs/Zazracna madona bar.svg' target='_blank'><img src='textsegments-graphs/Zazracna madona bar.png' style='width: 1200px; height: 500px; margin-left: -30px;'></a>";
-				echo "
-				<table style='float: left; margin-left: 120px; margin-top: 20px; font-family: Courier;'>
-				<tr><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Textový segment</td><td style='border: 1px solid black; padding: 2px; font-weight: bold; background-color: #B2BABB;'>Rf</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč</td><td style='border: 1px solid black; padding: 2px;'>108462.27</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč jako vnitřní monolog</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>personální vypravěč</td><td style='border: 1px solid black; padding: 2px;'>199544.74</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč postava</td><td style='border: 1px solid black; padding: 2px;'>479159.62</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vypravěč nadosobní</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>rétorický vypravěč</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>139622.87</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 1. stupně</td><td style='border: 1px solid black; padding: 2px;'>1937.92</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložené vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém vyprávění 2. stupně</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>vložený text</td><td style='border: 1px solid black; padding: 2px;'>18764.03</td></tr>
-				<tr><td style='border: 1px solid black; padding: 2px;'>přímá řeč ve vloženém textu</td><td style='border: 1px solid black; padding: 2px;'>0</td></tr>
-				<tr><td style='border: 0px solid black; padding: 2px; color: red; font-weight: bold;'>podrobná tabulka <a href='textsegments-txt/zazracnamadona.txt' target='_blank'><img src='ikony/txt.png' style='width: 20px; height: 20px;'></a></td></tr>
-				</table>";
-				echo "<br><a href='textsegments-graphs/Zazracna madona pie.svg' target='_blank'><img src='textsegments-graphs/Zazracna madona pie.png' style='width: 600px; height: 300px'></a><br><br>";
+				echo "<br><a href='SlovniDruhy/panrysanekapanschlegl.png' target='_blank'><img src='SlovniDruhy/panrysanekapanschlegl.png' style='width: 600px; height: 300px'></a><br><br>";
 				break;
 		}
 	}
